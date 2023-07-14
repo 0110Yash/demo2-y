@@ -55,7 +55,7 @@ export default function App() {
       <input type="text" value={form.email} name="email" onChange={(e) => handleChange(e)} className= "p-2  rounded-lg border-blue border outline-none"/>
     </div>
     <div className="flex flex-col gap-2">
-      <label htmlFor="">Phone</label>
+      <label>Phone</label>
       <input type="number" value={form.phone} name="phone" onChange={(e)=> handleChange(e)} className= "p-2  rounded-lg border-blue border outline-none"/>
     </div>
     <div className="flex flex-col gap-2">
